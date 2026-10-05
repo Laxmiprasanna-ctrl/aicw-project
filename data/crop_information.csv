@@ -1,0 +1,15 @@
+crop,season,soil_type,ph_min,ph_max,water_requirement,description
+Apple,Rabi,Well-drained loamy,6.0,7.0,Medium,Temperate fruit crop requiring cold winters for dormancy
+Blueberry,Kharif,Sandy acidic,4.5,5.5,Medium,Acid-loving shrub producing antioxidant-rich berries
+Cherry,Rabi,Well-drained loamy,6.0,7.5,Medium,Stone fruit requiring cold winters; sensitive to waterlogging
+Corn,Kharif,Well-drained loamy,5.8,7.0,High,Staple cereal crop with high nitrogen requirement
+Grape,Zaid,Well-drained sandy loam,6.0,7.0,Low,Perennial vine crop; drought tolerant once established
+Orange,Kharif,Well-drained sandy loam,6.0,7.5,Medium,Subtropical citrus crop requiring warm temperatures
+Peach,Rabi,Well-drained sandy loam,6.0,7.0,Medium,Stone fruit requiring moderate cold for dormancy
+Pepper,Kharif,Well-drained loamy,6.0,7.0,Medium,Warm season vegetable; sensitive to frost and waterlogging
+Potato,Rabi,Well-drained sandy loam,5.5,6.5,Medium,Cool season tuber crop; high potassium requirement
+Raspberry,Rabi,Well-drained loamy,5.5,6.5,Medium,Cane fruit preferring cool moist conditions
+Soybean,Kharif,Well-drained loamy,6.0,7.0,Medium,Legume crop fixing atmospheric nitrogen
+Squash,Kharif,Well-drained loamy,6.0,7.5,Medium,Warm season cucurbit; fast growing with high yield
+Strawberry,Rabi,Well-drained sandy loam,5.5,6.5,Medium,Low-growing fruit crop; sensitive to crown rot
+Tomato,Kharif,Well-drained loamy,6.0,7.0,Medium,Warm season vegetable; most widely grown worldwide

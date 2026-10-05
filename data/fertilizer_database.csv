@@ -1,0 +1,39 @@
+class_name,crop,disease,nitrogen,phosphorus,potassium,fertilizer_name,dosage,timing,notes
+Apple___Apple_scab,Apple,Apple Scab,80,40,60,NPK 12-6-9,500 kg/ha,Pre-bloom,Boost potassium to strengthen cell walls
+Apple___Black_rot,Apple,Black Rot,70,35,80,NPK 10-5-12,450 kg/ha,Early spring,High K improves disease resistance
+Apple___Cedar_apple_rust,Apple,Cedar Apple Rust,75,40,70,NPK 11-6-10,480 kg/ha,Pre-bloom,Balanced nutrition supports recovery
+Apple___healthy,Apple,Healthy,90,45,60,NPK 14-7-9,500 kg/ha,Spring,Standard maintenance fertilization
+Blueberry___healthy,Blueberry,Healthy,60,30,40,Ammonium Sulfate,200 kg/ha,Spring,Blueberries prefer acidic soil; use acid fertilizer
+Cherry_(including_sour)___Powdery_mildew,Cherry,Powdery Mildew,70,35,75,NPK 10-5-11,400 kg/ha,Early spring,Avoid excess nitrogen which promotes susceptible growth
+Cherry_(including_sour)___healthy,Cherry,Healthy,80,40,60,NPK 12-6-9,420 kg/ha,Spring,Standard cherry fertilization
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,Corn,Gray Leaf Spot,120,60,80,Urea + DAP,300 kg/ha,Pre-sowing + top dress,Split nitrogen application reduces disease severity
+Corn_(maize)___Common_rust_,Corn,Common Rust,110,55,90,NPK 17-8-14,280 kg/ha,Sowing,High potassium improves rust resistance
+Corn_(maize)___Northern_Leaf_Blight,Corn,Northern Leaf Blight,115,58,85,NPK 18-9-13,290 kg/ha,Sowing,Balanced NPK supports plant immunity
+Corn_(maize)___healthy,Corn,Healthy,120,60,80,Urea + DAP,300 kg/ha,Pre-sowing,Standard corn fertilization
+Grape___Black_rot,Grape,Black Rot,60,40,80,NPK 9-6-12,350 kg/ha,Pre-bud break,High K strengthens berry skin
+Grape___Esca_(Black_Measles),Grape,Esca Black Measles,55,35,70,NPK 8-5-10,300 kg/ha,Spring,Reduce stress with balanced nutrition
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot),Grape,Leaf Blight,60,38,75,NPK 9-6-11,320 kg/ha,Pre-bud break,Potassium improves disease tolerance
+Grape___healthy,Grape,Healthy,65,40,70,NPK 10-6-11,350 kg/ha,Spring,Standard grape fertilization
+Orange___Haunglongbing_(Citrus_greening),Orange,Citrus Greening,100,50,120,NPK 15-7-18,600 kg/ha,Split applications,High K and micronutrients support affected trees
+Peach___Bacterial_spot,Peach,Bacterial Spot,75,38,80,NPK 11-6-12,420 kg/ha,Early spring,Avoid excess N; high K improves resistance
+Peach___healthy,Peach,Healthy,85,42,65,NPK 13-6-10,440 kg/ha,Spring,Standard peach fertilization
+Pepper,_bell___Bacterial_spot,Pepper,Bacterial Spot,80,60,100,NPK 12-9-15,250 kg/ha,Transplanting + flowering,High K critical for bacterial resistance
+Pepper,_bell___healthy,Pepper,Healthy,90,65,90,NPK 14-10-14,260 kg/ha,Transplanting,Standard pepper fertilization
+Potato___Early_blight,Potato,Early Blight,100,80,120,NPK 15-12-18,350 kg/ha,Planting + hilling,High K reduces blight severity
+Potato___Late_blight,Potato,Late Blight,90,75,130,NPK 14-11-20,360 kg/ha,Planting,Very high K critical for late blight resistance
+Potato___healthy,Potato,Healthy,110,85,120,NPK 17-13-18,350 kg/ha,Planting,Standard potato fertilization
+Raspberry___healthy,Raspberry,Healthy,70,35,55,NPK 10-5-8,200 kg/ha,Early spring,Standard raspberry fertilization
+Soybean___healthy,Soybean,Healthy,20,60,40,DAP + MOP,150 kg/ha,Sowing,Soybean fixes nitrogen; focus on P and K
+Squash___Powdery_mildew,Squash,Powdery Mildew,60,50,80,NPK 9-8-12,200 kg/ha,Planting,Avoid excess N; high K improves resistance
+Strawberry___Leaf_scorch,Strawberry,Leaf Scorch,70,55,85,NPK 10-8-13,180 kg/ha,Early spring,High K reduces leaf scorch severity
+Strawberry___healthy,Strawberry,Healthy,75,60,80,NPK 11-9-12,180 kg/ha,Spring,Standard strawberry fertilization
+Tomato___Bacterial_spot,Tomato,Bacterial Spot,80,70,100,NPK 12-10-15,220 kg/ha,Transplanting + fruiting,High K and Ca improve bacterial resistance
+Tomato___Early_blight,Tomato,Early Blight,85,65,95,NPK 13-10-14,230 kg/ha,Transplanting,Balanced nutrition reduces blight susceptibility
+Tomato___Late_blight,Tomato,Late Blight,80,60,110,NPK 12-9-17,240 kg/ha,Transplanting,High K critical for late blight resistance
+Tomato___Leaf_Mold,Tomato,Leaf Mold,75,65,90,NPK 11-10-14,220 kg/ha,Transplanting,Reduce N to limit lush growth
+Tomato___Septoria_leaf_spot,Tomato,Septoria Leaf Spot,80,65,95,NPK 12-10-14,225 kg/ha,Transplanting,Balanced NPK supports recovery
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato,Spider Mites,70,60,85,NPK 10-9-13,210 kg/ha,Transplanting,Adequate K reduces mite susceptibility
+Tomato___Target_Spot,Tomato,Target Spot,80,65,90,NPK 12-10-14,220 kg/ha,Transplanting,Balanced nutrition supports plant immunity
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato,Yellow Leaf Curl Virus,75,60,95,NPK 11-9-14,215 kg/ha,Transplanting,High K supports virus-stressed plants
+Tomato___Tomato_mosaic_virus,Tomato,Mosaic Virus,70,60,90,NPK 10-9-14,210 kg/ha,Transplanting,Balanced nutrition for virus-affected plants
+Tomato___healthy,Tomato,Healthy,90,70,90,NPK 14-11-14,230 kg/ha,Transplanting,Standard tomato fertilization

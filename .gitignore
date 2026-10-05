@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+cropguard.db
+cropguard.db-*
+dataset/
+Microsoft/
+model/*.keras
+static/uploads/*
+!static/uploads/.gitkeep

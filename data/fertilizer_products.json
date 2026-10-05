@@ -1,0 +1,123 @@
+[
+  {
+    "product_name": "Ridomil Gold MZ 68 WG",
+    "fertilizer_type": "Fungicide (Metalaxyl + Mancozeb)",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Late Blight"],
+    "suitable_growth_stage": ["Seedling", "Vegetative", "Flowering", "Fruiting"],
+    "approximate_price": "Rs. 450-550 per 100g",
+    "availability": "Agricultural input shops, online agri-stores",
+    "usage_note": "Mix 2.5 g per litre of water. Observe 7-day pre-harvest interval. Do not apply more than 3 times per season."
+  },
+  {
+    "product_name": "Indofil M-45 (Mancozeb 75% WP)",
+    "fertilizer_type": "Fungicide (Mancozeb)",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Early Blight", "Late Blight", "Leaf Mold"],
+    "suitable_growth_stage": ["Seedling", "Vegetative", "Flowering"],
+    "approximate_price": "Rs. 180-220 per 500g",
+    "availability": "Widely available at agricultural input shops",
+    "usage_note": "Mix 2-2.5 g per litre of water. Spray every 7-10 days. Observe 7-day pre-harvest interval."
+  },
+  {
+    "product_name": "Blitox 50 (Copper Oxychloride 50% WP)",
+    "fertilizer_type": "Fungicide/Bactericide (Copper Oxychloride)",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Bacterial Spot", "Early Blight", "Late Blight"],
+    "suitable_growth_stage": ["Seedling", "Vegetative", "Flowering", "Fruiting"],
+    "approximate_price": "Rs. 200-280 per 500g",
+    "availability": "Widely available at agricultural input shops",
+    "usage_note": "Mix 2-3 g per litre of water. Suitable as organic/copper-based option. Observe 7-day pre-harvest interval."
+  },
+  {
+    "product_name": "Amistar (Azoxystrobin 23% SC)",
+    "fertilizer_type": "Fungicide (Strobilurin)",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Early Blight", "Leaf Mold"],
+    "suitable_growth_stage": ["Vegetative", "Flowering", "Fruiting"],
+    "approximate_price": "Rs. 650-800 per 100 ml",
+    "availability": "Agricultural input shops, online agri-stores",
+    "usage_note": "Mix 1 ml per litre of water. Do not use more than 2 times per season to prevent resistance."
+  },
+  {
+    "product_name": "Folicur (Tebuconazole 25.9% EC)",
+    "fertilizer_type": "Fungicide (Triazole)",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Early Blight", "Leaf Mold"],
+    "suitable_growth_stage": ["Vegetative", "Flowering", "Fruiting"],
+    "approximate_price": "Rs. 500-650 per 100 ml",
+    "availability": "Agricultural input shops",
+    "usage_note": "Mix 1 ml per litre of water. Spray every 7-10 days. Observe 14-day pre-harvest interval."
+  },
+  {
+    "product_name": "Neem Oil (Cold Pressed, 10000 ppm Azadirachtin)",
+    "fertilizer_type": "Biopesticide / Natural Fungicide",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Bacterial Spot", "Early Blight", "Leaf Mold"],
+    "suitable_growth_stage": ["Seedling", "Vegetative", "Flowering", "Fruiting"],
+    "approximate_price": "Rs. 150-250 per litre",
+    "availability": "Agricultural input shops, organic stores, online",
+    "usage_note": "Mix 5 ml per litre of water with 1 ml liquid soap as emulsifier. Spray every 7 days. Safe near harvest."
+  },
+  {
+    "product_name": "Vermicompost",
+    "fertilizer_type": "Organic Fertilizer",
+    "NPK": "1.5-1.0-1.5 (approximate)",
+    "crop": "Tomato",
+    "suitable_disease": ["All — improves soil health and plant immunity"],
+    "suitable_growth_stage": ["Seedling", "Vegetative"],
+    "approximate_price": "Rs. 8-15 per kg",
+    "availability": "Agricultural input shops, organic farms, online",
+    "usage_note": "Apply 2-3 kg per plant at transplanting or as top dressing. Improves soil microbial activity and plant immunity. Does NOT cure disease directly."
+  },
+  {
+    "product_name": "NPK 19-19-19 (Water Soluble)",
+    "fertilizer_type": "Chemical Fertilizer (Balanced NPK)",
+    "NPK": "19-19-19",
+    "crop": "Tomato",
+    "suitable_disease": ["Healthy — maintenance fertilization"],
+    "suitable_growth_stage": ["Vegetative"],
+    "approximate_price": "Rs. 60-80 per kg",
+    "availability": "Widely available at agricultural input shops",
+    "usage_note": "Mix 2 g per litre for foliar spray or 3-4 g per litre for drip fertigation. Use every 2 weeks during vegetative stage."
+  },
+  {
+    "product_name": "NPK 13-0-45 (Potassium Nitrate)",
+    "fertilizer_type": "Chemical Fertilizer (High Potassium)",
+    "NPK": "13-0-45",
+    "crop": "Tomato",
+    "suitable_disease": ["All — potassium strengthens cell walls and disease resistance"],
+    "suitable_growth_stage": ["Flowering", "Fruiting"],
+    "approximate_price": "Rs. 80-100 per kg",
+    "availability": "Agricultural input shops, online agri-stores",
+    "usage_note": "Mix 2-3 g per litre for foliar spray or drip fertigation. Use during flowering and fruiting stages."
+  },
+  {
+    "product_name": "Calcium Nitrate (15.5-0-0 + 26.5% Ca)",
+    "fertilizer_type": "Chemical Fertilizer (Calcium + Nitrogen)",
+    "NPK": "15.5-0-0",
+    "crop": "Tomato",
+    "suitable_disease": ["All — calcium improves cell wall strength and disease resistance"],
+    "suitable_growth_stage": ["Flowering", "Fruiting"],
+    "approximate_price": "Rs. 40-60 per kg",
+    "availability": "Widely available at agricultural input shops",
+    "usage_note": "Mix 2-3 g per litre for foliar spray. Prevents blossom end rot. Use every 10-14 days during fruiting."
+  },
+  {
+    "product_name": "Trichoderma viride (Bio-fungicide)",
+    "fertilizer_type": "Biofungicide",
+    "NPK": "N/A",
+    "crop": "Tomato",
+    "suitable_disease": ["Early Blight", "Leaf Mold — soil-borne disease suppression"],
+    "suitable_growth_stage": ["Seedling", "Vegetative"],
+    "approximate_price": "Rs. 200-350 per kg",
+    "availability": "Agricultural input shops, organic stores",
+    "usage_note": "Mix 5-10 g per litre for soil drench or seed treatment. Improves soil health and suppresses fungal pathogens. Does NOT replace fungicide for active infection."
+  }
+]

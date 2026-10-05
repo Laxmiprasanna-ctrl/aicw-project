@@ -1,0 +1,5964 @@
+{
+  "Tomato": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Bacterial Spot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply copper-based bactericide (copper hydroxide) spray",
+            "Remove infected leaves immediately"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply copper-based bactericide (copper hydroxide) spray",
+            "Remove infected leaves immediately"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply copper-based bactericide (copper hydroxide) spray",
+            "Remove infected leaves immediately"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply copper-based bactericide (copper hydroxide) spray",
+            "Remove infected leaves immediately"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track percentage of infected leaves"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track percentage of infected leaves"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track percentage of infected leaves"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track percentage of infected leaves"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools with 1% bleach"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools with 1% bleach"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools with 1% bleach"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools with 1% bleach"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Early Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track upward spread of disease"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track upward spread of disease"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track upward spread of disease"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Track upward spread of disease"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Tebuconazole (1 ml/L) spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Improve air circulation urgently"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Tebuconazole (1 ml/L) spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Improve air circulation urgently"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Tebuconazole (1 ml/L) spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Improve air circulation urgently"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Tebuconazole (1 ml/L) spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Improve air circulation urgently"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Late Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb (Ridomil Gold) immediately",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option",
+            "Neem oil as supplementary spray"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads within 24-48 hours",
+            "Monitor weather forecast"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb (Ridomil Gold) immediately",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option",
+            "Neem oil as supplementary spray"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads within 24-48 hours",
+            "Monitor weather forecast"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb (Ridomil Gold) immediately",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option",
+            "Neem oil as supplementary spray"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads within 24-48 hours",
+            "Monitor weather forecast"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb (Ridomil Gold) immediately",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option",
+            "Neem oil as supplementary spray"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads within 24-48 hours",
+            "Monitor weather forecast"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants for spread"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants for spread"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants for spread"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants for spread"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer immediately"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer immediately"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer immediately"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer immediately"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Leaf Mold": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply chlorothalonil (2 g/L) spray every 7-10 days",
+            "Improve ventilation immediately",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor humidity \u2014 keep below 85%"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply chlorothalonil (2 g/L) spray every 7-10 days",
+            "Improve ventilation immediately",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor humidity \u2014 keep below 85%"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply chlorothalonil (2 g/L) spray every 7-10 days",
+            "Improve ventilation immediately",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor humidity \u2014 keep below 85%"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply chlorothalonil (2 g/L) spray every 7-10 days",
+            "Improve ventilation immediately",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK 19-19-19 at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray",
+            "Neem leaf extract",
+            "Vermicompost side dressing"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor humidity \u2014 keep below 85%"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Chlorothalonil + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Prune for maximum air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor humidity levels daily"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Chlorothalonil + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Prune for maximum air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor humidity levels daily"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Chlorothalonil + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Prune for maximum air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor humidity levels daily"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Chlorothalonil + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Prune for maximum air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor humidity levels daily"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Urgently improve air circulation"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Urgently improve air circulation"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Urgently improve air circulation"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected leaves and stems",
+            "Urgently improve air circulation"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Potassium and calcium to support recovery"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Septoria Leaf Spot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) or chlorothalonil spray",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) or chlorothalonil spray",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) or chlorothalonil spray",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) or chlorothalonil spray",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Mancozeb + copper fungicide tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Mancozeb + copper fungicide tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Mancozeb + copper fungicide tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Mancozeb + copper fungicide tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Tebuconazole or azoxystrobin spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Tebuconazole or azoxystrobin spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Tebuconazole or azoxystrobin spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Tebuconazole or azoxystrobin spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Spider Mites": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply miticide (abamectin) or neem oil spray",
+            "Increase humidity around plants",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Ensure adequate water \u2014 drought stress increases mite susceptibility"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray every 5-7 days",
+            "Insecticidal soap spray",
+            "Increase humidity"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Check undersides of leaves"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply miticide (abamectin) or neem oil spray",
+            "Increase humidity around plants",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Ensure adequate water \u2014 drought stress increases mite susceptibility"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray every 5-7 days",
+            "Insecticidal soap spray",
+            "Increase humidity"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Check undersides of leaves"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply miticide (abamectin) or neem oil spray",
+            "Increase humidity around plants",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Ensure adequate water \u2014 drought stress increases mite susceptibility"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray every 5-7 days",
+            "Insecticidal soap spray",
+            "Increase humidity"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Check undersides of leaves"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply miticide (abamectin) or neem oil spray",
+            "Increase humidity around plants",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Ensure adequate water \u2014 drought stress increases mite susceptibility"
+          ],
+          "natural_options": [
+            "Neem oil (5 ml/L) spray every 5-7 days",
+            "Insecticidal soap spray",
+            "Increase humidity"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Check undersides of leaves"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Abamectin or spiromesifen miticide spray every 5-7 days",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium",
+            "Maintain soil moisture"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor for resistance \u2014 rotate miticides"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Abamectin or spiromesifen miticide spray every 5-7 days",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium",
+            "Maintain soil moisture"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor for resistance \u2014 rotate miticides"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Abamectin or spiromesifen miticide spray every 5-7 days",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium",
+            "Maintain soil moisture"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor for resistance \u2014 rotate miticides"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Abamectin or spiromesifen miticide spray every 5-7 days",
+            "Remove heavily infested leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium",
+            "Maintain soil moisture"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor for resistance \u2014 rotate miticides"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive miticide program every 3-4 days",
+            "Remove all heavily infested plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium and water"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive miticide program every 3-4 days",
+            "Remove all heavily infested plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium and water"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive miticide program every 3-4 days",
+            "Remove all heavily infested plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium and water"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive miticide program every 3-4 days",
+            "Remove all heavily infested plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 ensure adequate potassium and water"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Target Spot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply azoxystrobin or chlorothalonil spray",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply azoxystrobin or chlorothalonil spray",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply azoxystrobin or chlorothalonil spray",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply azoxystrobin or chlorothalonil spray",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Azoxystrobin + mancozeb tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Azoxystrobin + mancozeb tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Azoxystrobin + mancozeb tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Azoxystrobin + mancozeb tank mix every 5-7 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Mosaic Virus": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Remove and destroy infected plants immediately \u2014 no chemical cure",
+            "Control aphid vectors with insecticide",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control aphid vectors",
+            "Reflective mulch to deter aphids"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for aphid colonies"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove and destroy infected plants immediately \u2014 no chemical cure",
+            "Control aphid vectors with insecticide",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control aphid vectors",
+            "Reflective mulch to deter aphids"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for aphid colonies"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove and destroy infected plants immediately \u2014 no chemical cure",
+            "Control aphid vectors with insecticide",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control aphid vectors",
+            "Reflective mulch to deter aphids"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for aphid colonies"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove and destroy infected plants immediately \u2014 no chemical cure",
+            "Control aphid vectors with insecticide",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control aphid vectors",
+            "Reflective mulch to deter aphids"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for aphid colonies"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive aphid control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor aphid populations"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive aphid control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor aphid populations"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive aphid control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor aphid populations"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive aphid control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor aphid populations"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Yellow Leaf Curl Virus": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Remove and destroy infected plants immediately",
+            "Control whitefly vectors with imidacloprid",
+            "Use yellow sticky traps"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control whitefly",
+            "Reflective mulch to deter whitefly",
+            "Yellow sticky traps"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for whitefly colonies"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove and destroy infected plants immediately",
+            "Control whitefly vectors with imidacloprid",
+            "Use yellow sticky traps"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control whitefly",
+            "Reflective mulch to deter whitefly",
+            "Yellow sticky traps"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for whitefly colonies"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove and destroy infected plants immediately",
+            "Control whitefly vectors with imidacloprid",
+            "Use yellow sticky traps"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control whitefly",
+            "Reflective mulch to deter whitefly",
+            "Yellow sticky traps"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for whitefly colonies"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove and destroy infected plants immediately",
+            "Control whitefly vectors with imidacloprid",
+            "Use yellow sticky traps"
+          ],
+          "fertilizer": [
+            "Balanced NPK to support plant immunity",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray to control whitefly",
+            "Reflective mulch to deter whitefly",
+            "Yellow sticky traps"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor for whitefly colonies"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive whitefly control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor whitefly populations"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive whitefly control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor whitefly populations"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive whitefly control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor whitefly populations"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected plants",
+            "Intensive whitefly control program",
+            "Use virus-resistant varieties for replanting"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 potassium to support stressed plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days",
+            "Monitor whitefly populations"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected plants immediately",
+            "Consult extension officer",
+            "Plan replanting with resistant varieties"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop loss"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  },
+  "Potato": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Early Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply mancozeb (2 g/L) spray every 7-10 days",
+            "Remove infected lower leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor lower leaves first"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Mancozeb + azoxystrobin spray every 5-7 days",
+            "Remove all infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Tebuconazole spray every 4-5 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 potassium sulfate only",
+            "Potassium and calcium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Late Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb immediately \u2014 Late Blight is an emergency",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads rapidly",
+            "Monitor weather"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb immediately \u2014 Late Blight is an emergency",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads rapidly",
+            "Monitor weather"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb immediately \u2014 Late Blight is an emergency",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads rapidly",
+            "Monitor weather"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply metalaxyl + mancozeb immediately \u2014 Late Blight is an emergency",
+            "Remove infected leaves",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK at standard rate",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck every 3-5 days \u2014 Late Blight spreads rapidly",
+            "Monitor weather"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Metalaxyl + mancozeb every 4-5 days urgently",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 2-3 days",
+            "Monitor neighbouring plants"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Emergency metalaxyl + cymoxanil spray every 3-4 days",
+            "Remove and destroy all infected plants",
+            "Consult agricultural extension officer"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK for surviving plants only",
+            "No nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  },
+  "Corn/Maize": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Gray Leaf Spot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply strobilurin fungicide (azoxystrobin) at early signs",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen for corn",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply strobilurin fungicide (azoxystrobin) at early signs",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen for corn",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply strobilurin fungicide (azoxystrobin) at early signs",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen for corn",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply strobilurin fungicide (azoxystrobin) at early signs",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen for corn",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen application",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen application",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen application",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen application",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Common Rust": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply propiconazole or tebuconazole fungicide at early signs",
+            "Monitor weather \u2014 rust spreads rapidly in cool humid conditions"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium for rust resistance",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7 days",
+            "Monitor weather forecast"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply propiconazole or tebuconazole fungicide at early signs",
+            "Monitor weather \u2014 rust spreads rapidly in cool humid conditions"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium for rust resistance",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7 days",
+            "Monitor weather forecast"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply propiconazole or tebuconazole fungicide at early signs",
+            "Monitor weather \u2014 rust spreads rapidly in cool humid conditions"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium for rust resistance",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7 days",
+            "Monitor weather forecast"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply propiconazole or tebuconazole fungicide at early signs",
+            "Monitor weather \u2014 rust spreads rapidly in cool humid conditions"
+          ],
+          "fertilizer": [
+            "Balanced NPK with high potassium for rust resistance",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7 days",
+            "Monitor weather forecast"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Propiconazole + mancozeb spray every 7 days",
+            "Remove heavily infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Propiconazole + mancozeb spray every 7 days",
+            "Remove heavily infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Propiconazole + mancozeb spray every 7 days",
+            "Remove heavily infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Propiconazole + mancozeb spray every 7 days",
+            "Remove heavily infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "High potassium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "High potassium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "High potassium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "High potassium"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Northern Leaf Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply azoxystrobin or propiconazole fungicide",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply azoxystrobin or propiconazole fungicide",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply azoxystrobin or propiconazole fungicide",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply azoxystrobin or propiconazole fungicide",
+            "Remove infected lower leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK with adequate nitrogen",
+            "Split nitrogen application"
+          ],
+          "natural_options": [
+            "Neem oil spray as supplementary measure"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor lower leaves first"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Azoxystrobin + propiconazole tank mix every 7-10 days",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 split nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  },
+  "Apple": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Apple Scab": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply captan or myclobutanil fungicide at pre-bloom",
+            "Remove fallen infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option",
+            "Compost to improve soil health"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply captan or myclobutanil fungicide at pre-bloom",
+            "Remove fallen infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option",
+            "Compost to improve soil health"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply captan or myclobutanil fungicide at pre-bloom",
+            "Remove fallen infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option",
+            "Compost to improve soil health"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply captan or myclobutanil fungicide at pre-bloom",
+            "Remove fallen infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option",
+            "Compost to improve soil health"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Myclobutanil + captan tank mix every 7-10 days",
+            "Remove all infected leaves and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Myclobutanil + captan tank mix every 7-10 days",
+            "Remove all infected leaves and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Myclobutanil + captan tank mix every 7-10 days",
+            "Remove all infected leaves and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Myclobutanil + captan tank mix every 7-10 days",
+            "Remove all infected leaves and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Black Rot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Prune infected wood immediately",
+            "Apply copper fungicide",
+            "Remove mummified fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Prune infected wood immediately",
+            "Apply copper fungicide",
+            "Remove mummified fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Prune infected wood immediately",
+            "Apply copper fungicide",
+            "Remove mummified fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Prune infected wood immediately",
+            "Apply copper fungicide",
+            "Remove mummified fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Copper + captan spray every 7-10 days",
+            "Remove all infected wood and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper + captan spray every 7-10 days",
+            "Remove all infected wood and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper + captan spray every 7-10 days",
+            "Remove all infected wood and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper + captan spray every 7-10 days",
+            "Remove all infected wood and fruit"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Cedar Apple Rust": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply myclobutanil fungicide at pre-bloom",
+            "Remove nearby cedar/juniper trees if possible"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply myclobutanil fungicide at pre-bloom",
+            "Remove nearby cedar/juniper trees if possible"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply myclobutanil fungicide at pre-bloom",
+            "Remove nearby cedar/juniper trees if possible"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply myclobutanil fungicide at pre-bloom",
+            "Remove nearby cedar/juniper trees if possible"
+          ],
+          "fertilizer": [
+            "Balanced NPK for apple",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Myclobutanil spray every 7-10 days during wet weather",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Myclobutanil spray every 7-10 days during wet weather",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Myclobutanil spray every 7-10 days during wet weather",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Myclobutanil spray every 7-10 days during wet weather",
+            "Remove infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  },
+  "Grape": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Black Rot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply mancozeb or myclobutanil fungicide at pre-bloom",
+            "Remove mummified berries",
+            "Prune for air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply mancozeb or myclobutanil fungicide at pre-bloom",
+            "Remove mummified berries",
+            "Prune for air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply mancozeb or myclobutanil fungicide at pre-bloom",
+            "Remove mummified berries",
+            "Prune for air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply mancozeb or myclobutanil fungicide at pre-bloom",
+            "Remove mummified berries",
+            "Prune for air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape \u2014 high potassium",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor after rain events"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Myclobutanil + mancozeb spray every 7-10 days",
+            "Remove all infected berries and leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Myclobutanil + mancozeb spray every 7-10 days",
+            "Remove all infected berries and leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Myclobutanil + mancozeb spray every 7-10 days",
+            "Remove all infected berries and leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Myclobutanil + mancozeb spray every 7-10 days",
+            "Remove all infected berries and leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Esca / Black Measles": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Remove infected wood immediately",
+            "Apply wound sealant to pruning cuts",
+            "No effective chemical cure \u2014 management only"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid water stress \u2014 maintain consistent irrigation"
+          ],
+          "natural_options": [
+            "Compost to improve soil health",
+            "Trichoderma soil application"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor for new wood infections"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove infected wood immediately",
+            "Apply wound sealant to pruning cuts",
+            "No effective chemical cure \u2014 management only"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid water stress \u2014 maintain consistent irrigation"
+          ],
+          "natural_options": [
+            "Compost to improve soil health",
+            "Trichoderma soil application"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor for new wood infections"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove infected wood immediately",
+            "Apply wound sealant to pruning cuts",
+            "No effective chemical cure \u2014 management only"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid water stress \u2014 maintain consistent irrigation"
+          ],
+          "natural_options": [
+            "Compost to improve soil health",
+            "Trichoderma soil application"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor for new wood infections"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove infected wood immediately",
+            "Apply wound sealant to pruning cuts",
+            "No effective chemical cure \u2014 management only"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid water stress \u2014 maintain consistent irrigation"
+          ],
+          "natural_options": [
+            "Compost to improve soil health",
+            "Trichoderma soil application"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days",
+            "Monitor for new wood infections"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected wood",
+            "Apply wound sealant",
+            "Consult viticulture extension officer"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid water and nutrient stress",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected wood",
+            "Apply wound sealant",
+            "Consult viticulture extension officer"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid water and nutrient stress",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected wood",
+            "Apply wound sealant",
+            "Consult viticulture extension officer"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid water and nutrient stress",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected wood",
+            "Apply wound sealant",
+            "Consult viticulture extension officer"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid water and nutrient stress",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Remove all infected vines",
+            "Consult extension officer",
+            "Assess replanting"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving vines"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Remove all infected vines",
+            "Consult extension officer",
+            "Assess replanting"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving vines"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Remove all infected vines",
+            "Consult extension officer",
+            "Assess replanting"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving vines"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Remove all infected vines",
+            "Consult extension officer",
+            "Assess replanting"
+          ],
+          "fertilizer": [
+            "Minimal supportive nutrition for surviving vines"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess crop viability"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    },
+    "Leaf Blight": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply copper-based fungicide spray",
+            "Remove infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply copper-based fungicide spray",
+            "Remove infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply copper-based fungicide spray",
+            "Remove infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply copper-based fungicide spray",
+            "Remove infected leaves",
+            "Improve air circulation"
+          ],
+          "fertilizer": [
+            "Balanced NPK for grape",
+            "Avoid excess nitrogen"
+          ],
+          "natural_options": [
+            "Neem oil spray",
+            "Copper-based fungicide as organic option"
+          ],
+          "monitoring": [
+            "Recheck after 7-10 days"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Copper + mancozeb spray every 7-10 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper + mancozeb spray every 7-10 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper + mancozeb spray every 7-10 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper + mancozeb spray every 7-10 days",
+            "Remove all infected leaves"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 5-7 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Intensive fungicide program every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Soil-test-based NPK",
+            "No excess nitrogen"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  },
+  "Chili": {
+    "Healthy": {
+      "Seedling": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Vegetative": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Flowering": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      },
+      "Fruiting": {
+        "treatment": [
+          "No disease treatment needed"
+        ],
+        "fertilizer": [
+          "Apply balanced NPK as per crop growth stage",
+          "Use compost or vermicompost for soil health"
+        ],
+        "natural_options": [
+          "Neem cake soil application",
+          "Compost tea as soil drench"
+        ],
+        "monitoring": [
+          "Scout weekly for early signs of disease",
+          "Check undersides of leaves for pests"
+        ]
+      }
+    },
+    "Bacterial Spot": {
+      "Low": {
+        "Seedling": {
+          "treatment": [
+            "Apply copper-based bactericide spray",
+            "Remove infected leaves immediately",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Apply copper-based bactericide spray",
+            "Remove infected leaves immediately",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Apply copper-based bactericide spray",
+            "Remove infected leaves immediately",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Apply copper-based bactericide spray",
+            "Remove infected leaves immediately",
+            "Avoid overhead irrigation"
+          ],
+          "fertilizer": [
+            "Balanced NPK 10-10-10 at standard rate",
+            "Avoid high nitrogen fertilizers"
+          ],
+          "natural_options": [
+            "Neem oil spray (5 ml/L) every 7 days",
+            "Garlic extract spray"
+          ],
+          "monitoring": [
+            "Recheck after 5-7 days",
+            "Monitor spread to neighbouring plants"
+          ]
+        }
+      },
+      "Moderate": {
+        "Seedling": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper hydroxide + mancozeb tank mix every 5-7 days",
+            "Remove all infected plant material"
+          ],
+          "fertilizer": [
+            "Balanced NPK \u2014 avoid excess nitrogen",
+            "Potassium sulfate to strengthen plants"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Recheck every 3-5 days"
+          ]
+        }
+      },
+      "High": {
+        "Seedling": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Copper + streptomycin bactericide every 4-5 days",
+            "Remove all infected plants",
+            "Disinfect tools"
+          ],
+          "fertilizer": [
+            "No nitrogen \u2014 apply potassium sulfate only",
+            "Soil-test-based correction"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Recheck every 2-3 days"
+          ]
+        }
+      },
+      "Very High": {
+        "Seedling": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Vegetative": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Flowering": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        },
+        "Fruiting": {
+          "treatment": [
+            "Consult agricultural extension officer immediately",
+            "Remove and destroy all heavily infected plants",
+            "Plan crop rotation for next season"
+          ],
+          "fertilizer": [
+            "No further fertilizer investment in severely infected crop"
+          ],
+          "natural_options": [],
+          "monitoring": [
+            "Daily inspection",
+            "Assess total crop loss"
+          ]
+        }
+      }
+    }
+  }
+}

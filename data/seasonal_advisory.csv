@@ -1,0 +1,19 @@
+region,season,typical_temp_min,typical_temp_max,typical_humidity,typical_rainfall,advisory
+North India,Kharif,25,38,70,800,Monitor for fungal diseases due to high humidity. Ensure proper drainage in fields.
+North India,Rabi,5,22,55,150,Watch for frost damage. Apply potassium fertilizers to improve cold tolerance.
+North India,Zaid,28,42,40,50,Irrigate frequently. Watch for spider mites and aphids in dry conditions.
+South India,Kharif,22,32,80,1200,High disease pressure. Apply preventive fungicides. Ensure good drainage.
+South India,Rabi,18,30,65,400,Moderate disease risk. Monitor for bacterial diseases in humid spells.
+South India,Zaid,26,38,50,100,Drought stress increases pest susceptibility. Maintain soil moisture.
+East India,Kharif,24,34,85,1500,Very high fungal disease risk. Apply copper fungicides preventively.
+East India,Rabi,10,24,60,200,Monitor for late blight in potatoes. Apply metalaxyl if needed.
+East India,Zaid,28,40,55,80,Heat stress management critical. Mulch to retain soil moisture.
+West India,Kharif,22,35,75,900,Moderate to high disease pressure. Scout fields weekly.
+West India,Rabi,12,28,50,100,Low disease risk. Focus on nutrition management.
+West India,Zaid,30,44,30,20,Extreme heat. Irrigate at dawn/dusk. Watch for spider mites.
+Central India,Kharif,23,36,72,950,High humidity promotes fungal diseases. Ensure crop spacing for airflow.
+Central India,Rabi,8,26,52,120,Cool dry conditions. Low disease risk. Focus on weed management.
+Central India,Zaid,29,43,35,30,Hot dry conditions. Drought stress management essential.
+Northeast India,Kharif,20,30,90,2000,Extremely high disease pressure. Weekly fungicide applications recommended.
+Northeast India,Rabi,8,22,70,300,Monitor for bacterial diseases. Avoid waterlogging.
+Northeast India,Zaid,22,34,65,150,Moderate conditions. Standard crop management practices.
