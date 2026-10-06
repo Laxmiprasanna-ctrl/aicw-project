@@ -7,19 +7,23 @@ from PIL import Image
 import json
 from pathlib import Path
 from database import init_db, get_predictions, save_prediction
+from localization import TELUGU, install_localization, translate, initialize_language, persist_language
+
+install_localization(st)
 
 st.set_page_config(
-    page_title="FRAM IQ",
+    page_title="CropCare AI",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+initialize_language(st)
 
 # ── CSS ───────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+html, body, [class*="css"] { font-family: 'Inter', 'Noto Sans Telugu', 'Nirmala UI', sans-serif; }
 [data-testid="stAppViewContainer"] {
     background:
         radial-gradient(ellipse at 10% 4%, rgba(220, 252, 231, .85), transparent 34%),
@@ -184,6 +188,18 @@ html, body, [class*="css"], [data-testid="stAppViewContainer"] { color: var(--te
 [data-testid="stHeader"] { background: rgba(11,20,16,.94) !important; }
 [data-testid="stSidebar"] { background: #0F1F17 !important; border-right: 1px solid var(--border); }
 [data-testid="stSidebar"] * { color: var(--text) !important; }
+[data-testid="stSidebarUserContent"] > div > [data-testid="stVerticalBlock"] {
+    display:flex; flex-direction:column; min-height:calc(100dvh - 2rem);
+}
+.st-key-sidebar-bottom-section { margin-top:auto; position:sticky; bottom:0; z-index:5;
+    padding-top:1rem; background:#0F1F17; border-top:1px solid #234332; }
+.st-key-sidebar-bottom-section [data-testid="stButton"] button {
+    background:transparent !important; border:1px solid transparent !important;
+    box-shadow:none !important; color:#A7B8AC !important; justify-content:flex-start;
+}
+.st-key-sidebar-bottom-section [data-testid="stButton"] button:hover {
+    color:#FCA5A5 !important; background:#2b1717 !important; border-color:#7f3333 !important;
+}
 [data-testid="stSidebar"] [role="radiogroup"] { gap:.22rem; }
 [data-testid="stSidebar"] [role="radiogroup"] label {
     padding:.48rem .62rem; border:1px solid transparent; border-radius:10px;
@@ -331,32 +347,71 @@ PAGE_OPTIONS = [
     "❓ FAQ", "ℹ️ About Project", "📊 Model Performance", "🛒 Market Prices",
 ]
 PAGE_LABELS = {
-    "🏠 Dashboard": "Dashboard", "🔬 Crop Scanner": "Crop Scanner",
-    "🧪 Disease Results": "Disease Results", "📋 Plant Records": "Plant Records",
+    "🏠 Dashboard": "Dashboard", "🔬 Crop Scanner": "New Scan",
+    "🧪 Disease Results": "Disease Results", "📋 Plant Records": "Scan History",
     "💊 Treatment & Cure": "Treatment & Cure", "🌱 Fertilizer Advisory": "Fertilizer & Nutrient",
-    "🌦 Weather & Risk": "Weather & Risk", "🤖 AI Agronomist": "AI Agronomy",
+    "🌦 Weather & Risk": "Weather", "🤖 AI Agronomist": "Agronomy",
     "📅 Seasonal Advisory": "Seasonal Advisory", "📚 Disease Knowledge": "Disease Knowledge",
     "❓ FAQ": "FAQ", "ℹ️ About Project": "About", "📊 Model Performance": "AI Benchmark",
-    "🛒 Market Prices": "Market Prices",
+    "🛒 Market Prices": "Products",
 }
 
+
+NAV_OPTIONS = PAGE_OPTIONS
 
 def set_active_page(target):
     """Shared callback for dashboard shortcuts and the top navigation."""
     st.session_state["app_navigation"] = target
+    st.session_state["sidebar_navigation"] = target
+
+
+def sync_sidebar_navigation():
+    st.session_state["app_navigation"] = st.session_state["sidebar_navigation"]
+
+
+def sync_header_navigation():
+    st.session_state["sidebar_navigation"] = st.session_state["app_navigation"]
 
 
 def render_top_navigation():
-    """Render the shared brand header; all navigation controls live in the sidebar."""
+    """Render the brand, hamburger navigation menu, and language selector."""
     if "app_navigation" not in st.session_state:
         st.session_state.app_navigation = PAGE_OPTIONS[0]
-    st.markdown(
-        '<div class="top-brand"><span class="top-brand-mark">&#127807;</span>'
-        '<span><strong>FRAM IQ</strong><small>Smart Agriculture</small></span></div>',
-        unsafe_allow_html=True,
-    )
+    brand_col, language_col, menu_col = st.columns([5, 1.25, 0.55], vertical_alignment="center")
+    with brand_col:
+        st.markdown(
+            '<div class="top-brand"><span class="top-brand-mark">&#127807;</span>'
+            '<span><strong>CropCare AI</strong>'
+            '<small>PROFESSIONAL AGRICULTURAL INTELLIGENCE</small></span></div>',
+            unsafe_allow_html=True,
+        )
+    with language_col:
+        st.selectbox(
+            "Language",
+            ["English", "\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41", "\u0939\u093f\u0928\u094d\u0926\u0940"],
+            label_visibility="collapsed",
+            key="header_language",
+        )
+    with menu_col:
+        with st.popover("\u2630", help="Open navigation"):
+            st.radio(
+                "Application navigation",
+                NAV_OPTIONS,
+                format_func=format_page_label,
+                key="app_navigation",
+                label_visibility="visible",
+                on_change=sync_header_navigation,
+            )
+    persist_language(st)
     st.divider()
     return st.session_state.app_navigation
+
+
+def format_page_label(value):
+    label = PAGE_LABELS.get(value, value)
+    if st.session_state.get("header_language") == TELUGU:
+        return translate(label)
+    return label
 
 def render_empty_state(title, message):
     st.markdown(
@@ -407,7 +462,6 @@ def render_disease_result_summary(record, include_status=True):
 def render_fertilizer_card(recommendation, stage_guidance=None, products=None):
     """Render nutrient guidance separately from disease treatment."""
     st.markdown("#### Fertilizer & Nutrient Recommendation")
-    st.info("Fertilizers support plant nutrition but do not directly cure diseases.")
     if recommendation.get("found"):
         st.markdown(f"**Recommended fertilizer:** {recommendation.get('fertilizer_name') or 'See stage guidance below'}")
         nutrients = recommendation.get("nutrients") or {}
@@ -424,7 +478,7 @@ def render_fertilizer_card(recommendation, stage_guidance=None, products=None):
             st.caption(f"Timing in source data: {recommendation['timing']}. Selected growth stage: {recommendation.get('growth_stage') or 'not supplied'}. The fertilizer CSV does not contain an explicit growth-stage field.")
         st.markdown("**Product recommendation (local fertilizer record)**")
         st.write(f"{recommendation.get('fertilizer_name') or 'Fertilizer name not listed'} · NPK {recommendation.get('npk') or 'not listed'}")
-        st.caption(f"Suitable crop: {recommendation.get('crop', 'not listed')} · Selected growth stage: {recommendation.get('growth_stage', 'not supplied')} (stage tags are absent from the NPK CSV) · Purpose: {recommendation.get('purpose') or 'not listed'} · Price/availability data not available")
+        st.caption(f"Suitable crop: {recommendation.get('crop', 'not listed')} · Selected growth stage: {recommendation.get('growth_stage', 'not supplied')} (stage tags are absent from the NPK CSV) · Purpose: {recommendation.get('purpose') or 'not listed'}")
         soil_reference = recommendation.get("soil_reference")
         if soil_reference:
             st.caption(f"Crop soil reference: {soil_reference.get('soil_type', 'not listed')}; pH {soil_reference.get('ph_min', '?')}–{soil_reference.get('ph_max', '?')}; water need {soil_reference.get('water_requirement', 'not listed')}.")
@@ -441,7 +495,6 @@ def render_fertilizer_card(recommendation, stage_guidance=None, products=None):
         st.markdown("**Recommended fertilizer:** Stage-specific local guidance")
         for item in stage_guidance:
             st.markdown(f"- {item}")
-        st.caption("The fertilizer NPK database has no exact entry for this crop and disease. These stage-aware notes come from the local recommendation library and include no numeric NPK targets.")
     else:
         render_empty_state("Insufficient fertilizer data", recommendation.get("message") or "No fertilizer recommendation is available yet. Complete a crop and growth-stage assessment first.")
 
@@ -452,10 +505,6 @@ def render_fertilizer_card(recommendation, stage_guidance=None, products=None):
             st.caption(f"Suitable crop: {product.get('crop', 'not listed')} · Suitable stage: {', '.join(product.get('suitable_growth_stage', [])) or 'not specified'} · Purpose: {', '.join(product.get('suitable_disease', [])) or 'not specified'}")
             if product.get("reference_price"):
                 st.caption(f"Catalog price reference only (not live): {product['reference_price']} · Catalog availability only (not live): {product.get('availability') or 'not listed'}")
-            else:
-                st.caption("Price/availability data not available")
-    elif not products:
-        st.caption("Price/availability data not available")
 
 USERS = {"admin": "admin123", "farmer": "crop2024", "demo": "demo"}
 
@@ -488,23 +537,22 @@ if not st.session_state.logged_in:
     st.stop()
 # ── SIDEBAR ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🌿 FRAM IQ")
-    st.markdown(f"👤 **{st.session_state.username}**")
-    st.markdown("---")
+    if st.session_state.get("app_navigation") not in NAV_OPTIONS:
+        st.session_state.app_navigation = PAGE_OPTIONS[0]
+    st.session_state.setdefault("sidebar_navigation", st.session_state.app_navigation)
+    st.markdown("## 🌱 CropCare AI")
     st.radio(
-        "Application navigation", PAGE_OPTIONS,
-        format_func=lambda value: PAGE_LABELS.get(value, value),
-        key="app_navigation", label_visibility="visible",
+        "Application navigation", NAV_OPTIONS, format_func=format_page_label,
+        key="sidebar_navigation", label_visibility="collapsed", on_change=sync_sidebar_navigation,
     )
-    st.sidebar.button(
-        "🌿 Start New Scan", key="sidebar_start_scan", type="primary",
-        width="stretch", on_click=set_active_page, args=(PAGE_OPTIONS[1],),
-    )
-    if st.sidebar.button("Logout"):
-        st.session_state.logged_in = False
-        st.session_state.username = ""
-        st.session_state["app_navigation"] = PAGE_OPTIONS[0]
-        st.rerun()
+    with st.container(key="sidebar-bottom-section"):
+        st.markdown(f"👤 **Profile**  ·  {st.session_state.username}")
+        if st.button("🚪 Logout", key="sidebar_logout", width="stretch"):
+            st.session_state.logged_in = False
+            st.session_state.username = ""
+            st.session_state["app_navigation"] = PAGE_OPTIONS[0]
+            st.session_state["sidebar_navigation"] = PAGE_OPTIONS[0]
+            st.rerun()
 
 page = render_top_navigation()
 
@@ -512,7 +560,7 @@ page = render_top_navigation()
 if page == "🏠 Dashboard":
     st.markdown("""
     <div class="hero">
-        <h1>🌿 FRAM IQ Dashboard</h1>
+        <h1>🌱 CropCare AI</h1>
         <p>AI-powered crop health and sustainable farming assistant</p>
     </div>
     """, unsafe_allow_html=True)
@@ -540,15 +588,15 @@ if page == "🏠 Dashboard":
     render_kpis([
         ("Leaf Scans Processed", len(rows), f"+{recent_week} this week" if rows else "No scan history yet"),
         ("AI Benchmark Score", model_accuracy, benchmark_note),
-        ("Crops Monitored", len({r.get('crop') for r in rows if r.get('crop')})),
-        ("Model-supported Crops", len(TRAINED_CROPS)),
-        ("Diseased Scans", len(disease_rows)),
-        ("Healthy Scans", len(healthy_rows)),
+        ("Crops Supported", len(TRAINED_CROPS)),
+        ("Diseases Detected", sum(1 for name in json.loads((Path(__file__).parent / "models" / "class_names.json").read_text(encoding="utf-8")) if "healthy" not in name.lower())),
+        ("Healthy Plants", len(healthy_rows)),
+        ("Farmers / Users", "—"),
     ])
 
     with st.container(border=True):
         st.markdown("### 🍃 Ready to check a leaf?")
-        st.caption("Start with a crop photo. Use **Start New Scan** in the sidebar to begin detection, severity, treatment, and nutrient guidance.")
+        st.caption("Start with a crop photo to get disease detection, severity, treatment, and nutrient guidance.")
 
     st.subheader("Recent Leaf Scans")
     if rows:
@@ -593,13 +641,15 @@ if page == "🏠 Dashboard":
 
     st.subheader("Quick Actions")
     actions = [
-        ("View Disease Results", PAGE_OPTIONS[2]),
+        ("Start a New Scan", PAGE_OPTIONS[1]), ("View Disease Results", PAGE_OPTIONS[2]),
         ("Fertilizer Advisory", PAGE_OPTIONS[5]), ("Treatment & Cure", PAGE_OPTIONS[4]),
-        ("Weather & Risk", PAGE_OPTIONS[6]), ("AI Agronomy Advisory", PAGE_OPTIONS[7]),
+        ("View Scan History", PAGE_OPTIONS[3]),
     ]
-    for index, (label, target) in enumerate(actions):
-        st.sidebar.button(label, key=f"dashboard_action_{index}", width="stretch",
-                          on_click=set_active_page, args=(target,))
+    action_columns = st.columns(len(actions))
+    for index, ((label, target), column) in enumerate(zip(actions, action_columns)):
+        with column:
+            st.button(label, key=f"dashboard_action_{index}", width="stretch",
+                      on_click=set_active_page, args=(target,))
 
     if not is_model_available():
         st.warning("Trained model not found. Run python train_model.py to restore the disease scanner.")
@@ -736,8 +786,14 @@ elif page == "🔬 Crop Scanner":
 
     with col_img:
         st.image(image, caption="Uploaded Leaf Image", width="stretch")
+        analyze_disease = st.button(
+            "Analyze Disease",
+            type="primary",
+            key="analyze_disease",
+            use_container_width=True,
+        )
 
-    if not st.sidebar.button("🔍 Analyze Leaf", type="primary", key="analyze_disease"):
+    if not analyze_disease:
         st.info("Review the preview, then select Analyze Disease to run the local model.")
         st.stop()
 
@@ -782,12 +838,6 @@ elif page == "🔬 Crop Scanner":
             pct = prediction["confidence"] * 100
             st.caption(f"{prediction['crop']} · {prediction['disease']} — {pct:.2f}%")
             st.progress(min(max(float(prediction["confidence"]), 0.0), 1.0))
-        if result.get("crop_mismatch"):
-            st.warning(
-                f"The model's overall class scores lean toward {result.get('strongest_crop', result['crop'])}, "
-                f"but this scan is being classified within your selected crop ({crop}). "
-                "Check that the uploaded image shows that crop; recommendations below use the selected crop."
-            )
         st.caption("Disease confidence is calculated among the trained classes for the selected crop.")
         st.markdown(f"""
         <div class="conf-bar-bg">
@@ -842,58 +892,53 @@ elif page == "🔬 Crop Scanner":
     fertilizer_catalog = get_fertilizer_products(crop, growth_stage)
     if severity == "Unknown" and rec.get("found"):
         st.info("Severity could not be estimated. The treatment plan below uses general baseline guidance, not a severity-specific assessment.")
-    if rec.get("matched_growth_stage") and rec["matched_growth_stage"] != growth_stage:
-        st.caption(f"No {growth_stage} plan is in the local recommendation data; showing the {rec['matched_growth_stage']} plan as a reference.")
     st.markdown("### Scan History")
     st.caption("Successful scans are saved automatically to Plant Records on this device. Add or edit field notes from the saved record.")
     try:
-        import hashlib
         from werkzeug.utils import secure_filename
         from uuid import uuid4
 
-        if "saved_scan_fingerprints" not in st.session_state:
-            st.session_state.saved_scan_fingerprints = set()
-        image_bytes = image.tobytes()
-        fingerprint_context = f"{crop}|{growth_stage}|{soil_n}|{soil_p}|{soil_k}|{soil_ph}|{soil_moisture}|{image.mode}|{image.size}|"
-        fingerprint = hashlib.sha256(fingerprint_context.encode("utf-8") + image_bytes).hexdigest()
-        if fingerprint not in st.session_state.saved_scan_fingerprints:
-            upload_dir = Path(__file__).parent / "static" / "uploads"
-            upload_dir.mkdir(parents=True, exist_ok=True)
-            ext = Path(uploaded_name).suffix.lower()
-            if ext not in {".jpg", ".jpeg", ".png", ".webp"}:
-                ext = ".jpg"
-            safe_name = secure_filename(f"{uuid4().hex}{ext}")
-            image_path = upload_dir / safe_name
-            fmt = "JPEG" if ext in {".jpg", ".jpeg"} else ("PNG" if ext == ".png" else "WEBP")
-            image_to_save = image.convert("RGB") if fmt == "JPEG" else image
-            image_to_save.save(image_path, format=fmt)
-            fertilizer_history = []
-            if nutrient_data.get("found"):
-                fertilizer_history.extend([
-                    f"Fertilizer: {nutrient_data.get('fertilizer_name')}",
-                    f"NPK reference: {nutrient_data.get('npk')} (units not specified in source data)",
-                    f"Purpose: {nutrient_data.get('purpose') or 'not listed'}",
-                    f"Source timing: {nutrient_data.get('timing') or 'not listed'}",
-                ])
-            else:
-                fertilizer_history.extend(rec.get("fertilizer", []))
-            if nutrient_data.get("found"):
-                fertilizer_history.extend(rec.get("fertilizer", []))
-            if fertilizer_catalog:
-                fertilizer_history.extend(
-                    f"Catalog product: {p.get('product_name')} · NPK {p.get('NPK', 'not listed')}"
-                    for p in fertilizer_catalog
-                )
-            if nutrient_data.get("soil_context"):
-                fertilizer_history.append(f"Farmer-provided soil context: {nutrient_data['soil_context']}")
-            save_prediction(crop=crop, growth_stage=growth_stage,
-                            disease=disease, confidence=result["confidence"],
-                            severity=severity,
-                            image_path=f"static/uploads/{safe_name}",
-                            treatment=rec.get("treatment", []),
-                            fertilizer=fertilizer_history, notes="")
-            st.session_state.saved_scan_fingerprints.add(fingerprint)
-        st.success("Scan saved to Plant Records.")
+        upload_dir = Path(__file__).parent / "static" / "uploads"
+        upload_dir.mkdir(parents=True, exist_ok=True)
+        ext = Path(uploaded_name).suffix.lower()
+        if ext not in {".jpg", ".jpeg", ".png", ".webp"}:
+            ext = ".jpg"
+        safe_name = secure_filename(f"{uuid4().hex}{ext}")
+        image_path = upload_dir / safe_name
+        fmt = "JPEG" if ext in {".jpg", ".jpeg"} else ("PNG" if ext == ".png" else "WEBP")
+        image_to_save = image.convert("RGB") if fmt == "JPEG" else image
+        image_to_save.save(image_path, format=fmt)
+        fertilizer_history = []
+        if nutrient_data.get("found"):
+            fertilizer_history.extend([
+                f"Fertilizer: {nutrient_data.get('fertilizer_name')}",
+                f"NPK reference: {nutrient_data.get('npk')}",
+                f"Purpose: {nutrient_data.get('purpose') or 'not listed'}",
+                f"Source timing: {nutrient_data.get('timing') or 'not listed'}",
+            ])
+        else:
+            fertilizer_history.extend(rec.get("fertilizer", []))
+        if nutrient_data.get("found"):
+            fertilizer_history.extend(rec.get("fertilizer", []))
+        if fertilizer_catalog:
+            fertilizer_history.extend(
+                f"Catalog product: {p.get('product_name')} - NPK {p.get('NPK', 'not listed')}"
+                for p in fertilizer_catalog
+            )
+        if nutrient_data.get("soil_context"):
+            fertilizer_history.append(f"Farmer-provided soil context: {nutrient_data['soil_context']}")
+        saved_record_id = save_prediction(
+            crop=crop,
+            growth_stage=growth_stage,
+            disease=disease,
+            confidence=result["confidence"],
+            severity=severity,
+            image_path=f"static/uploads/{safe_name}",
+            treatment=rec.get("treatment", []),
+            fertilizer=fertilizer_history,
+            notes="",
+        )
+        st.success(f"Scan saved to Plant Records (record #{saved_record_id}).")
     except Exception as exc:
         st.error(f"Could not save this scan to history: {exc}")
 
@@ -902,7 +947,6 @@ elif page == "🔬 Crop Scanner":
     treatment_col, nutrient_col = st.columns(2)
     with treatment_col:
         st.markdown("#### Treatment & Cure")
-        st.info("Fertilizers support plant nutrition but do not directly cure diseases.")
         if rec.get("treatment"):
             st.markdown("**Immediate and disease-management actions**")
             for item in rec["treatment"]:
@@ -1238,7 +1282,7 @@ elif page == PAGE_OPTIONS[7]:
             st.markdown(f"- {item}")
     else:
         render_empty_state("Insufficient treatment data", "No matching local treatment row exists. Confirm the condition with an agricultural extension service.")
-    st.info("Fertilizers support plant nutrition but do not directly cure diseases. Use only locally approved crop-protection products and follow their current labels.")
+    st.info("Use only locally approved crop-protection products and follow their current labels.")
 
     st.subheader("Fertilizer / Nutrient Guidance")
     render_fertilizer_card(nutrient, disease_plan.get("fertilizer", []), fertilizer_products)
@@ -1285,7 +1329,6 @@ elif page == PAGE_OPTIONS[4]:
         render_disease_result_summary(dict(record), include_status=False)
         st.markdown("**Treatment saved from the scan**")
         st.write(record["treatment"] or "No specific treatment record was available; consult a local extension officer.")
-        st.info("Fertilizers support plant nutrition but do not directly cure diseases.")
         st.sidebar.button("Open complete scan result", on_click=set_active_page, args=(PAGE_OPTIONS[2],))
     else:
         render_empty_state("No scan result yet", "Run a crop scan first. You can still use the reference lookup below.")
@@ -1406,7 +1449,6 @@ elif page == "🛒 Market Prices":
 
     st.markdown("🏛️ **Source Reference: AGMARKNET (Directorate of Marketing & Inspection, Ministry of Agriculture, Govt of India)**")
     st.markdown("[AGMARKNET.gov.in ↗](https://agmarknet.gov.in/) · [e-NAM Portal ↗](https://enam.gov.in/)")
-    st.info("Rates shown below are the user-provided indicative benchmark sample, not a verified live feed. Check AGMARKNET or your local APMC mandi for current prices.")
 
     if market_state == "Andhra Pradesh":
         st.subheader("Andhra Pradesh APMC Mandi Benchmark Rates (05 Oct 2026)")
@@ -1431,7 +1473,7 @@ elif page == "🛒 Market Prices":
         st.dataframe(pd.DataFrame(prices, columns=["Vegetable / Crop Name", "Unit", "Mandi Price (vs. 7-day avg)", "Retail Price Range"]),
                      width="stretch", hide_index=True)
     elif market_state:
-        st.info(f"No indicative benchmark table is included for {market_state} yet. Use AGMARKNET or e-NAM above to view that state's current mandi data.")
+        pass
     else:
         st.caption("Select a state and press Submit to view available benchmark data.")
 
