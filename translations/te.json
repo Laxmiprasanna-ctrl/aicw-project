@@ -2,7 +2,7 @@
   "Application navigation": "ప్రధాన నావిగేషన్",
   "Go to": "వెళ్లండి",
   "Language": "భాష",
-  "CropCare AI": "క్రాప్‌కేర్ AI",
+  "CropCare AI": "CropCare AI",
   "PROFESSIONAL AGRICULTURAL INTELLIGENCE": "వృత్తిపరమైన వ్యవసాయ మేధస్సు",
   "AI-powered crop health and sustainable farming assistant": "AI ఆధారిత పంట ఆరోగ్యం మరియు సుస్థిర వ్యవసాయ సహాయకుడు",
   "Dashboard": "డ్యాష్‌బోర్డ",
@@ -201,7 +201,7 @@
   "Products": "ఉత్పత్తులు",
   "Weather": "వాతావరణం",
   "Profile": "ప్రొఫైల్",
-  "Settings": "సెట్టింగ్స్",
+  "Settings": "Settings",
   "Crops Supported": "మద్దతు ఉన్న పంటలు",
   "Diseases Detected": "గుర్తించిన వ్యాధులు",
   "Healthy Plants": "ఆరోగ్యకరమైన మొక్కలు",
@@ -261,5 +261,6 @@
   "View Treatment": "చికిత్సను చూడండి",
   "View Fertilizer Advisory": "ఎరువుల సలహాను చూడండి",
   "Find Products": "ఉత్పత్తులను కనుగొనండి",
-  "Start Follow-up Scan": "తదుపరి స్కాన్ ప్రారంభించండి"
+  "Start Follow-up Scan": "తదుపరి స్కాన్ ప్రారంభించండి",
+  "Your language choice is saved in the browser address and stays selected after refresh.": "\\u0c2e\\u0c40 \\u0c2d\\u0c3e\\u0c37 \\u0c0e\\u0c02\\u0c2a\\u0c3f\\u0c15 \\u0c2c\\u0c4d\\u0c30\\u0c4c\\u0c1c\\u0c30\\u0c4d \\u0c1a\\u0c3f\\u0c30\\u0c41\\u0c28\\u0c3e\\u0c2e\\u0c3e\\u0c32\\u0c4b \\u0c38\\u0c47\\u0c35\\u0c4d \\u0c05\\u0c35\\u0c41\\u0c24\\u0c41\\u0c02\\u0c26\\u0c3f; \\u0c30\\u0c40\\u0c2b\\u0c4d\\u0c30\\u0c46\\u0c37\\u0c4d \\u0c24\\u0c30\\u0c4d\\u0c35\\u0c3e\\u0c24 \\u0c15\\u0c42\\u0c21\\u0c3e \\u0c05\\u0c26\\u0c47 \\u0c2e\\u0c40\\u0c26 \\u0c15\\u0c4a\\u0c28\\u0c38\\u0c3e\\u0c17\\u0c41\\u0c24\\u0c41\\u0c02\\u0c26\\u0c3f."
 }

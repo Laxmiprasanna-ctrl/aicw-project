@@ -1,6 +1,7 @@
 """Small runtime localization layer for the Streamlit interface."""
 
 import json
+import re
 from pathlib import Path
 
 _TRANSLATION_DIR = Path(__file__).parent / "translations"
@@ -8,6 +9,15 @@ ENGLISH_TEXT = json.loads((_TRANSLATION_DIR / "en.json").read_text(encoding="utf
 TELUGU_TEXT = json.loads((_TRANSLATION_DIR / "te.json").read_text(encoding="utf-8"))
 TELUGU = "\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41"
 ENGLISH = "English"
+_RECOMMENDATION_ACTIONS = {
+    "Apply ": "వేయండి: ", "Remove ": "తొలగించండి: ", "Monitor ": "పర్యవేక్షించండి: ",
+    "Recheck ": "మళ్లీ తనిఖీ చేయండి: ", "Avoid ": "నివారించండి: ", "Maintain ": "కొనసాగించండి: ",
+    "Use ": "వాడండి: ", "Consult ": "సంప్రదించండి: ", "Improve ": "మెరుగుపరచండి: ",
+    "Assess ": "అంచనా వేయండి: ", "Prune ": "కత్తిరించండి: ", "Ensure ": "నిర్ధారించండి: ",
+    "Plan ": "ప్రణాళిక చేయండి: ", "Control ": "నియంత్రించండి: ", "Check ": "తనిఖీ చేయండి: ",
+    "Track ": "గమనించండి: ", "Increase ": "పెంచండి: ", "Disinfect ": "శుభ్రపరచండి: ",
+    "Scout ": "పరిశీలించండి: ", "No ": "వద్దు: ", "Urgently ": "అత్యవసరంగా: ",
+}
 
 
 def translate(text, language=TELUGU):
@@ -16,6 +26,10 @@ def translate(text, language=TELUGU):
         return text
     for english in sorted(TELUGU_TEXT, key=len, reverse=True):
         text = text.replace(english, TELUGU_TEXT[english])
+    # Recommendation entries contain locally curated chemical names and doses.
+    # Translate only a known action verb when an entire phrase has no catalog entry.
+    for english, telugu in _RECOMMENDATION_ACTIONS.items():
+        text = re.sub(r"(?<![A-Za-z])" + re.escape(english), telugu, text)
     return text
 
 

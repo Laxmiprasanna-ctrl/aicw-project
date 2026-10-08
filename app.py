@@ -7,12 +7,24 @@ from PIL import Image
 import json
 from pathlib import Path
 from database import init_db, get_predictions, save_prediction
-from localization import TELUGU, install_localization, translate, initialize_language, persist_language
+from localization import TELUGU, install_localization, translate
+
+# A running Streamlit process can hold an older localization module while files
+# are being saved. Keep startup compatible with that earlier module version.
+try:
+    from localization import initialize_language, persist_language
+except ImportError:
+    def initialize_language(streamlit_module):
+        if "header_language" not in streamlit_module.session_state:
+            streamlit_module.session_state.header_language = "English"
+
+    def persist_language(streamlit_module):
+        return None
 
 install_localization(st)
 
 st.set_page_config(
-    page_title="CropCare AI",
+    page_title="FARMIQ",
     page_icon="🌿",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -191,7 +203,10 @@ html, body, [class*="css"], [data-testid="stAppViewContainer"] { color: var(--te
 [data-testid="stSidebarUserContent"] > div > [data-testid="stVerticalBlock"] {
     display:flex; flex-direction:column; min-height:calc(100dvh - 2rem);
 }
-.st-key-sidebar-bottom-section { margin-top:auto; position:sticky; bottom:0; z-index:5;
+[data-testid="stSidebarUserContent"] [data-testid="stVerticalBlock"]:has(.st-key-sidebar-bottom-section) {
+    display:flex; flex-direction:column; min-height:calc(100dvh - 2rem);
+}
+.st-key-sidebar-bottom-section { order:999; margin-top:auto; position:sticky; bottom:0; z-index:5;
     padding-top:1rem; background:#0F1F17; border-top:1px solid #234332; }
 .st-key-sidebar-bottom-section [data-testid="stButton"] button {
     background:transparent !important; border:1px solid transparent !important;
@@ -344,7 +359,7 @@ PAGE_OPTIONS = [
     "🏠 Dashboard", "🔬 Crop Scanner", "🧪 Disease Results", "📋 Plant Records",
     "💊 Treatment & Cure", "🌱 Fertilizer Advisory", "🌦 Weather & Risk",
     "🤖 AI Agronomist", "📅 Seasonal Advisory", "📚 Disease Knowledge",
-    "❓ FAQ", "ℹ️ About Project", "📊 Model Performance", "🛒 Market Prices",
+    "❓ FAQ", "ℹ️ About Project", "📊 Model Performance", "🛒 Market Prices", "⚙️ Settings",
 ]
 PAGE_LABELS = {
     "🏠 Dashboard": "Dashboard", "🔬 Crop Scanner": "New Scan",
@@ -353,7 +368,7 @@ PAGE_LABELS = {
     "🌦 Weather & Risk": "Weather", "🤖 AI Agronomist": "Agronomy",
     "📅 Seasonal Advisory": "Seasonal Advisory", "📚 Disease Knowledge": "Disease Knowledge",
     "❓ FAQ": "FAQ", "ℹ️ About Project": "About", "📊 Model Performance": "AI Benchmark",
-    "🛒 Market Prices": "Products",
+    "🛒 Market Prices": "Products", "⚙️ Settings": "Settings",
 }
 
 
@@ -371,6 +386,10 @@ def sync_sidebar_navigation():
 
 def sync_header_navigation():
     st.session_state["sidebar_navigation"] = st.session_state["app_navigation"]
+
+
+def sync_settings_language():
+    st.session_state["header_language"] = st.session_state["language_settings"]
 
 
 def render_top_navigation():
@@ -540,7 +559,7 @@ with st.sidebar:
     if st.session_state.get("app_navigation") not in NAV_OPTIONS:
         st.session_state.app_navigation = PAGE_OPTIONS[0]
     st.session_state.setdefault("sidebar_navigation", st.session_state.app_navigation)
-    st.markdown("## 🌱 CropCare AI")
+    st.markdown("## 🌱 FARMIQ")
     st.radio(
         "Application navigation", NAV_OPTIONS, format_func=format_page_label,
         key="sidebar_navigation", label_visibility="collapsed", on_change=sync_sidebar_navigation,
@@ -560,7 +579,7 @@ page = render_top_navigation()
 if page == "🏠 Dashboard":
     st.markdown("""
     <div class="hero">
-        <h1>🌱 CropCare AI</h1>
+        <h1>🌱 FARMIQ</h1>
         <p>AI-powered crop health and sustainable farming assistant</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1488,3 +1507,12 @@ elif page == "🛒 Market Prices":
     p2.metric("Total Farming Cost", f"₹{farming_cost:,.0f}")
     p3.metric("Estimated Net Profit", f"₹{net_profit:,.0f}", delta="Profit" if net_profit >= 0 else "Loss")
     st.caption("Estimate = yield × selling price − entered costs. This is a planning aid and excludes transport, commission, quality deductions, and other charges unless entered in farming costs.")
+
+elif page == "⚙️ Settings":
+    st.title("Settings")
+    st.session_state["language_settings"] = st.session_state.get("header_language", "English")
+    st.selectbox(
+        "Language", ["English", TELUGU], key="language_settings",
+        on_change=sync_settings_language,
+    )
+    st.caption("Your language choice is saved in the browser address and stays selected after refresh.")
